@@ -56,7 +56,7 @@ class OwnerController {
 		dataBinder.setDisallowedFields("id");
 	}
 
-	@GetMapping("/owners/new")
+	@GetMapping("/owners/new1")
 	public String initCreationForm(Map<String, Object> model) {
 		Owner owner = new Owner();
 		model.put("owner", owner);
